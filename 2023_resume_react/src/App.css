@@ -18,3 +18,17 @@ body {
 h1 {
   color: darkslategrey;
 }
+
+/***** INTRODUCTION *****/
+
+.introduction-box {
+  border-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-box {
+  font-size: 80px;
+  justify-content: center;
+}
