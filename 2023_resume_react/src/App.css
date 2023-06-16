@@ -19,16 +19,33 @@ h1 {
   color: darkslategrey;
 }
 
+p {
+  font-size: large;
+}
+
 /***** INTRODUCTION *****/
 
 .introduction-box {
   border-color: red;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 4fr;
+  text-align: center;
 }
 
 .name-box {
   font-size: 80px;
-  justify-content: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.title-box {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.description-box {
+  padding: 10px;
+  grid-column-start: 2;
+  grid-row-start: 4;
 }

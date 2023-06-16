@@ -1,12 +1,12 @@
 import resume from './src/images/testimg.png'
 
 function Resume() {
+    function handleClick() {
+
+    }
     return (
-        <>
-        {/* <img src={resume} alt="Resume_JuliaLoman_2023" /> */}
-        <button>Download the Resume</button>
-        </>
-        );
+        <button onClick={handleClick}>Resume</button>
+    );
 }
 
 export default Resume;

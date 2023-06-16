@@ -1,7 +1,7 @@
-function Socials() {
+export default function Socials() {
     return (
-        <button>I'm a LinkedInButton</button>
+        <a href="https://www.linkedin.com/in/julialoman/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+        </a>
     );
 }
-
-export default Socials;
