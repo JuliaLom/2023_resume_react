@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Introduction from './components/Introduction';
-import Socials from './components/Socials';
+import Introduction from './pages/IntroductionPage';
+import Socials from './components/SocialsButtons';
 import Resume from './components/Resume';
-import resume from './src/images/Resume_JuliaLoman_2023.pdf'
 
 function App() {
   return (

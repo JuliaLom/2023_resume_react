@@ -19,6 +19,10 @@ h1 {
   color: darkslategrey;
 }
 
+h2 {
+  font-weight: 100;
+}
+
 p {
   font-size: large;
 }
@@ -29,19 +33,23 @@ p {
   border-color: red;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 4fr;
+  grid-template-rows: 1fr 2fr 2fr 4fr;
   text-align: center;
+  
 }
 
 .name-box {
   font-size: 80px;
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 3;
+  text-align: left;
+  /*background-image: url("/white-poppies.jpg"); */
 }
 
 .title-box {
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 3;
+  text-align: left;
 }
 
 .description-box {
