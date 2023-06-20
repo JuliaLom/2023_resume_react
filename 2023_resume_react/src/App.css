@@ -27,6 +27,33 @@ p {
   font-size: large;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/***** NAVBAR ******/
+
+.navbar-grid {
+  
+  display: grid;
+  grid-template-columns: 5fr 2fr 1fr;
+  
+}
+
+.navbar-flex {
+  grid-column-start: 2;
+  background-color: rgb(248, 152, 200);
+  height: 80px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0px 0px 14px 14px;
+  font-size: large;
+}
+
 /***** INTRODUCTION *****/
 
 .introduction-box {
