@@ -8,15 +8,6 @@ import Resume from './pages/ResumePage';
 import Layout from './pages/Layout';
 
 function App() {
-  // return (
-
-  //   <>
-  //   <div> <Layout></Layout> </div>
-  //   <div> <Introduction></Introduction> </div>
-  //   <div> <Socials></Socials> </div>
-  //   <div> <Resume></Resume></div>
-  //   </>
-  //   );
 
     return (
       <BrowserRouter>

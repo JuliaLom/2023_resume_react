@@ -1,12 +1,14 @@
-import resume from './Resume_JuliaLoman_2023.jpg'
+import ResumeButton from '../components/ResumeButton'
+import { Document, Page } from 'react-pdf';
 
-function Resume() {
-    function handleClick() {
 
-    }
+function ResumePage() {
+    
     return (
-        <button onClick={handleClick}>Resume</button>
+        <>
+        <div className='introduction-box'><ResumeButton></ResumeButton></div>
+        </>
     );
 }
 
-export default Resume;
+export default ResumePage;
