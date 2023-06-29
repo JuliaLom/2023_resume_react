@@ -105,6 +105,11 @@ ul {
   grid-row-start: 4;
 }
 
+.linkedIn-button {
+  color:blue;
+  background-color: blue;
+}
+
 /***** RESUME PAGE *****/
 
 .download-button {
